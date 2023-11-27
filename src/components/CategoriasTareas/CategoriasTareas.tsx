@@ -26,7 +26,7 @@ const CategoriasTareas = ({ tasks } : { tasks: Task[] } ) => {
                     {/* imagen */}
                     <img 
                       // style={{ minHeight: '260px', maxHeight: '260px', objectFit: 'cover', objectPosition: 'top center' }} 
-                      style={{ minHeight: '260px', maxHeight: '260px'}} 
+                      style={{ minHeight: '300px', maxHeight: '300px'}} 
                       className="card-img-top" 
                       src={ task.imagen } alt={ task.titulo }
                     />
